@@ -1,4 +1,26 @@
-basic.showIcon(IconNames.Heart)
 basic.forever(function () {
-    basic.showIcon(IconNames.Fabulous)
+    basic.showLeds(`
+        . . . . .
+        . . # . .
+        . # # # .
+        . . # . .
+        . . . . .
+        `)
+    basic.pause(500)
+    basic.showLeds(`
+        . . . . .
+        . # # # .
+        . # # # .
+        . # # # .
+        . . . . .
+        `)
+    basic.pause(500)
+    basic.showLeds(`
+        # . # . #
+        . # # # .
+        # # # # #
+        . # # # .
+        # . # . #
+        `)
+    basic.pause(500)
 })
